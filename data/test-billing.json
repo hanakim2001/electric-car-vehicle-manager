@@ -1,0 +1,7 @@
+{
+  "description":"실제 사용자 제공 한전 청구서 검증 기준",
+  "records":[
+    {"period":"2026.06.02~2026.07.01","kwh":312,"electricityCharge":47399,"vat":4740,"fund":1270,"total":53400},
+    {"period":"2026.07.02~2026.08.01","kwh":453,"electricityCharge":61523,"vat":6152,"fund":1660,"total":69330}
+  ]
+}

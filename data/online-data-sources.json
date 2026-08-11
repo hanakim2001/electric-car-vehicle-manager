@@ -1,0 +1,24 @@
+{
+  "appTitle": "전기차 차량 관리",
+  "sources": [
+    {
+      "provider": "한국전력공사",
+      "dataset": "전기차 충전전력 월별 계시별 사용량 및 판매단가",
+      "dataGoKrId": "15104443",
+      "api": "https://api.odcloud.kr/api/15104443/v1/uddi:02be31ea-daae-4f1c-8264-acd9c13e021d"
+    },
+    {
+      "provider": "한전KDN",
+      "dataset": "CHA ON 전기차 충전 요금",
+      "dataGoKrId": "15151017",
+      "api": "https://api.odcloud.kr/api/15151017/v1/uddi:478c0421-0e46-4127-8650-afbbb03e3cbd"
+    },
+    {
+      "provider": "한전KDN",
+      "dataset": "CHA ON 전기차 충전량",
+      "dataGoKrId": "15151109",
+      "api": "https://api.odcloud.kr/api/15151109/v1/uddi:ba04ff9a-5b87-4040-9b12-cc42298e126c"
+    }
+  ],
+  "note": "공공데이터포털 Open API는 활용신청 및 인증키가 필요합니다. 개인 고객의 한전ON 청구서 계정 데이터는 별도 사용자 인증/공식 연계가 필요하며 공개 API로 임의 접근하지 않습니다. 앱은 공개 요금/충전 데이터와 사용자가 입력한 개인 청구 데이터를 분리합니다."
+}
